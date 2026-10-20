@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Strip internal identifiers, internal names and internal remarks from the customer-facing text.
-2. Follow the writing-helper customer reply structure: acknowledge -> what we found (plain English) -> what happens next and when -> how to reach us. One short paragraph each. Use `references/sentiment-and-tone-guide.md` for de-escalation phrases and the "do not promise" list, and `references/jargon-translation-table.md` to replace every technical term.
+2. Follow the writing-helper customer reply structure: acknowledge -> what we found (plain English) -> what happens next and when -> how to reach us. One short paragraph each. Use `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/sentiment-and-tone-guide.md` for de-escalation phrases and the "do not promise" list, and `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/jargon-translation-table.md` to replace every technical term.
 3. Channel from a `channel:` token (default email). SMS: under 300 characters, no greeting beyond the first name, one next step. Portal: same as email without the sign-off block.
 4. Produce exactly this template:
 

@@ -1,7 +1,7 @@
 ---
 name: customer-case-assistant
 description: This skill should be used when a customer operations staff member pastes a complaint, call notes, an email or SMS thread, a portal screenshot or a technical ticket note and asks to "summarise this case", "what am I missing", "draft a reply to the customer" or "put this in plain English". Wholesale-aware: the retail relationship belongs to the RSP. Local only; no CRM access.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Customer Case Assistant
@@ -34,7 +34,7 @@ Rules for every output:
 
 **Sentiment is evidence-based.** Quote the words. Look for urgency and vulnerability signals (medical equipment, working from home, elderly resident, safety, moving date) and raise them under the sentiment section so the employee can prioritise.
 
-**One next step for the customer.** The reply tells the customer one thing that happens next and when they will hear from us. Internal steps go under INTERNAL NOTES.
+**One next step for the customer.** The reply tells the customer one thing that happens next and when they will hear from us. Internal steps go under INTERNAL NEXT STEP in a case summary and under INTERNAL NOTES in a draft reply.
 
 **Translate, do not simplify away.** Plain English keeps the meaning: "the light signal reaching your connection box is too weak" is correct; "there is a problem with your internet" is not.
 

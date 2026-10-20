@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If a screenshot is provided, transcribe it first (screenshot-reader) into a READ FROM IMAGE block; if a PDF, apply document-reader.
-2. Triage with `references/case-triage-checklist.md` (case type, service state, wholesale boundary, urgency signals). Read sentiment with `references/sentiment-and-tone-guide.md` and quote the words that justify the sentiment call.
+2. Triage with `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/case-triage-checklist.md` (case type, service state, wholesale boundary, urgency signals). Read sentiment with `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/sentiment-and-tone-guide.md` and quote the words that justify the sentiment call.
 3. Produce exactly this template:
 
 ```

@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Keep internal identifiers (PON, OLT, port numbers, ticket IDs) out of the customer column.
-2. Use `references/jargon-translation-table.md` for every term. Where a term is not in the table, translate by describing what the customer would notice (lights, connection, speed) rather than the mechanism.
+2. Use `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/jargon-translation-table.md` for every term. Where a term is not in the table, translate by describing what the customer would notice (lights, connection, speed) rather than the mechanism.
 3. Produce exactly this template:
 
 ```

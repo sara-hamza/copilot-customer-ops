@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Walk the "Information needed to progress" table in `references/case-triage-checklist.md` for the case type you identify. Mark each item present (quote it briefly) or missing.
+2. Walk the "Information needed to progress" table in `${CLAUDE_PLUGIN_ROOT}/skills/customer-case-assistant/references/case-triage-checklist.md` for the case type you identify. Mark each item present (quote it briefly) or missing.
 3. Produce exactly this template and nothing else:
 
 ```
